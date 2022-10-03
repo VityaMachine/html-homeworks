@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+h3 {
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.container {
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Inter", sans-serif;
+}
+
+.content {
+  padding-top: 40px;
+  padding-left: 35px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+}
+
+.main-info {
+  font-weight: 700;
+}
+
+.sub-info {
+  font-weight: 400;
+}
+
+.title {
+  font-size: 32px;
+  line-height: 39px;
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+}
+
+.content-text {
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.text-semibold {
+  padding-top: 15px;
+  font-weight: 600;
+}
+
+.text-strong {
+  padding-top: 15px;
+  padding-bottom: 18px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.info-list {
+  list-style: none;
+}
+
+.literature-list {
+  font-size: 12px;
+  padding-left: 20px;
+}
+
+.literature-list > li {
+  padding-bottom: 3px;
+}
+
+.navigation-list {
+  list-style: none;
+}

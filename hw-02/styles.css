@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.work-name {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 24px;
+  text-align: center;
+  width: 635px;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.title {
+  padding-bottom: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.planet-container {
+  width: 870px;
+  padding-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.planet-title {
+  padding-bottom: 15px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+.planet-title::first-letter {
+  text-transform: uppercase;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.table {
+  max-width: 1000px;
+  min-width: 850px;
+  border: 2px solid black;
+  border-spacing: 0;
+}
+
+.table-cell {
+  width: 125px;
+  height: 25px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+footer {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-title {
+  position: relative;
+  top: 100px;
+  left: 25px;
+  text-align: center;
+}
+
+.footer-img-container {
+  display: block;
+  text-align: center;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.seal {
+  position: relative;
+  top: 75px;
+}

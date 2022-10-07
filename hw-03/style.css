@@ -1,0 +1,352 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1&family=Marcellus+SC&family=Roboto+Slab:wght@400;500;600;700&family=Roboto:wght@300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+  min-width: 700px;
+  font-family: "Roboto", serif;
+}
+
+.main-title {
+  text-align: center;
+  font-family: "M PLUS 1", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  text-transform: uppercase;
+  line-height: 78px;
+  letter-spacing: 0.1em;
+  margin-top: 15px;
+}
+
+.ttlcl-blue {
+  color: #3e45e8;
+}
+
+.ttlcl-yellow {
+  color: #e8c23e;
+}
+
+.title-img-container {
+  background-image: url("./src/img/title-background.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 53vw;
+  min-height: 400px;
+  max-height: 537px;
+}
+
+.title-flag {
+  position: relative;
+  width: 2%;
+  height: 40%;
+  left: 5%;
+  top: 28%;
+}
+
+.title-flag-wh {
+  width: 100%;
+  height: 50%;
+}
+
+.left-flag-wh {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+}
+
+.flag-color-blue {
+  background: linear-gradient(180deg, #00e0ff 15%, #1400ff 100%);
+}
+
+.flag-color-yellow {
+  background: linear-gradient(180deg, #ffa800 15%, #fff500 100%);
+}
+
+.title-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 37%;
+  width: calc(100% - 125px);
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 2px;
+  font-weight: 500;
+  position: relative;
+  left: 10%;
+  top: -50px;
+}
+
+.title-text-container div {
+  height: 25%;
+}
+
+.title-text-container div:nth-child(1):after {
+  content: "мій сонячний дім - це моя Україна!";
+}
+
+.title-text-container div:nth-child(2):after {
+  content: "незалежна, красива і сильна!";
+}
+
+.title-text-container div:nth-child(3):after {
+  content: "найкраща моя Батьківщина!";
+}
+
+.title-text-container div:nth-child(4):after {
+  content: "для кожного з нас ти у світі - єдина!";
+}
+
+.sub-title {
+  margin-top: 55px;
+  margin-bottom: 15px;
+  width: calc(100% - 85px);
+  text-transform: uppercase;
+  font-size: 38px;
+  letter-spacing: 3px;
+  position: relative;
+  left: 60px;
+}
+
+.flag-left {
+  height: 12px;
+  width: 78.5%;
+  font-size: 0;
+}
+
+.flag-left-blue {
+  background: linear-gradient(90deg, #00e0ff 15%, #1400ff 100%);
+}
+
+.flag-left-yellow {
+  background: linear-gradient(90deg, #ffa800 15%, #fff500 100%);
+}
+
+.card-list {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.card-item {
+  width: 260px;
+  height: 320px;
+  border: 5px solid #0d095f;
+  border-radius: 30px;
+  box-shadow: 0px 21px 35px rgba(0, 209, 255, 0.35);
+  transition-duration: 100ms;
+  transition-timing-function: linear;
+}
+
+.card-item:first-child {
+  box-shadow: -16px 21px 40px rgba(0, 209, 255, 0.35);
+}
+
+.card-item:last-child {
+  box-shadow: 16px 21px 40px rgba(0, 209, 255, 0.35);
+}
+
+.card-item > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: #ff9900;
+}
+
+.card-bg-box {
+  width: 100%;
+  height: 65%;
+  border-radius: 25px 25px 10px 10px;
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
+  background-size: cover;
+  background-position: center;
+  transition-duration: 200ms;
+  transition-timing-function: revert;
+}
+
+.card1 {
+  background-image: url(./src/img/cards/тустань-1.png);
+}
+
+.card-item:hover > a > .card1 {
+  background-image: url(./src/img/cards/тустань-2.jpg);
+}
+
+.card2 {
+  background-image: url(./src/img/cards/луцький_замок-1.png);
+}
+
+.card-item:hover > a > .card2 {
+  background-image: url(./src/img/cards/луцький_замок-2.jpg);
+}
+
+.card3 {
+  background-image: url(./src/img/cards/камяна_могила-1.png);
+}
+
+.card-item:hover > a > .card3 {
+  background-image: url(./src/img/cards/камяна_могила-2.jpg);
+}
+
+.card-textbox {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.card-title {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #0072db;
+}
+
+.card-text {
+  width: 80%;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 1px;
+}
+
+.map-container {
+  width: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blue-line {
+  margin-right: auto;
+  margin-left: auto;
+  height: 7px;
+  width: 60%;
+  margin-bottom: 40px;
+  background-color: #1400ff;
+  position: relative;
+  left: 2%;
+}
+
+.map-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.button-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 300px;
+  height: 50px;
+  border-radius: 25px;
+  font-family: "Roboto Slab", serif;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: white;
+  background-color: #2a61f0;
+}
+
+.button-link:hover {
+  background-color: #003d83;
+}
+
+.button-link:active {
+  background-color: #337bce;
+}
+
+footer {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background: linear-gradient(180deg, #013235 15%, #0d0661 100%);
+  padding-bottom: 20px;
+}
+
+.footer-link {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Marcellus SC", serif;
+  font-size: 26px;
+  color: #a89d9d;
+  padding-top: 5px;
+}
+
+.social-links {
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+  display: block;
+  width: 50%;
+}
+
+.social-links > li {
+  display: inline-block;
+}
+
+.social-icon {
+  display: block;
+  width: 26px;
+  height: 26px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 8px;
+  fill: #a89d9d;
+}
+
+.instagram:hover {
+  fill: #da4c64;
+}
+
+.facebook:hover {
+  fill: #293df5;
+}
+
+.youtube:hover {
+  fill: #db1818;
+}
+
+@media (max-width: 860px) {
+  .title-text-container {
+    font-size: 1.5em;
+    top: -38px;
+  }
+
+  .sub-title {
+    font-size: 28px;
+  }
+
+  .card-item {
+    width: 215px;
+    height: 275px;
+  }
+
+  .card-text {
+    font-size: 12px;
+  }
+}

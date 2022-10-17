@@ -9,20 +9,24 @@
   </head>
   <body>
     <header class="header">
-      <div class="container-header">
+      <div class="container content-header">
         <a class="logo-url" href="#">
           <img src="./src/img/logo.png" alt="logo" class="logo-img" />
         </a>
 
         <ul class="menu">
           <li class="menu-item"><a href="#" class="menu-link">Головна</a></li>
-          <li class="menu-item"><a href="#" class="menu-link">Про нас</a></li>
           <li class="menu-item">
-            <a href="#" class="menu-link">Забронювати</a>
+            <a href="#contacts" class="menu-link">Про нас</a>
           </li>
-          <li class="menu-item"><a href="#" class="menu-link">Контакти</a></li>
           <li class="menu-item">
-            <a href="#" class="menu-link">Особистий кабінет</a>
+            <a href="#book" class="menu-link">Забронювати</a>
+          </li>
+          <li class="menu-item">
+            <a href="#contacts" class="menu-link">Контакти</a>
+          </li>
+          <li class="menu-item">
+            <a href="#cabinet" class="menu-link">Особистий кабінет</a>
           </li>
         </ul>
 
@@ -37,10 +41,10 @@
 
     <main class="main">
       <h3 class="select-title">
-        <div class="main-container">Забронювати будиночок</div>
+        <div class="container" id="book">Забронювати будиночок</div>
       </h3>
 
-      <div class="main-container">
+      <div class="container">
         <div class="content-box">
           <div class="select-btn-line">
             <span class="btn-line-text"> Оберіть місцерозташування </span>
@@ -49,69 +53,128 @@
               alt="button"
               class="btn-line-icon"
             />
-
-
-
-<!-- <object data="./src/img/star.svg" type="image/svg+xml" class="btn-line-icon"></object> -->
-
           </div>
 
-          <ul class="places-list">
-            <!-- 
-             ! MARKUP for JS
-             ! USE CODE FOR JS !!!!!
-            -->
-
-            <li class="list-item">
-
-
-
-              <div class="item-img-box">
-                <img
-                  src="./src/img//content/бакота.jpg"
-                  alt="бакота"
-                  class="item-img"
-                />
-              </div>
-
-              <div class="text-box">
-                <h4 class="item-title">Незвідана Бакота</h4>
-                <div class="title-underline"></div>
-                <div class="item-text">
-                  У Хмельницькій області розташований загублений край - Бакота.
-                  Мальовничий каньйон з давньою історією захоплює своїми
-                  просторами та незвичною атмосферою. Бджільництво, свіжий мед
-                  із польових трав, дотик до природи.
-                </div>
-              </div>
-
-              <div class="btns-box">
-                <div class="star-box">
-               
-                  <svg class="star-icon">
-                    <use href="./src/img/icons.svg#icon-star"></use>
-                  </svg>
-
-                </div>
-              </div>
-
-            </li>
-
-
-
-            <!-- 
-             ! MARKUP for JS
-             ! END CODE FOR JS !!!!!
-            -->
-
-
+          <ul class="places-list closed-list">
+            <!-- JS render -->
           </ul>
-
-          <div class="js-test-selector"></div>
         </div>
       </div>
+
+      <div class="block-line yellow-blue" id="cabinet">
+        <div class="container line-text">Особистий кабінет</div>
+      </div>
+
+      <div class="container">
+        <div class="cabinet-box">
+          <div class="left-items">
+            <div class="avatar-box">
+              <img
+                src="./src/img/avatar.png"
+                alt="userImg"
+                class="avatar-img"
+              />
+            </div>
+            <div class="buttons-box">
+              <button type="button" class="cab-button">Змінити аватар</button>
+              <button type="button" class="cab-button">Налаштування</button>
+            </div>
+          </div>
+
+          <div class="right-items">
+            <div class="atribute">
+              <span class="atr-name"></span>
+              <span class="atr-value">Нищук Дмитро Миколайович</span>
+            </div>
+
+            <div class="title-underline"></div>
+
+            <div class="atribute">
+              <span class="atr-name">Стать: </span>
+              <span class="atr-value">чоловіча</span>
+            </div>
+
+            <div class="title-underline"></div>
+
+            <div class="atribute">
+              <span class="atr-name">Дата народження: </span>
+              <span class="atr-value">10. 02. 1998</span>
+            </div>
+
+            <div class="title-underline"></div>
+
+            <div class="atribute">
+              <span class="atr-name">Мобільний телефон: </span>
+              <span class="atr-value">+38(097)346-72-50</span>
+            </div>
+
+            <div class="title-underline"></div>
+
+            <div class="atribute">
+              <span class="atr-name">Ел. пошта: </span>
+              <span class="atr-value">petrov@gmail.com</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="exit-btn-box">
+          <button type="button" class="exit-btn">Вийти</button>
+        </div>
+      </div>
+
+      <div class="block-line blue-yellow">
+        <div class="container line-text" id="contacts">Контакти</div>
+      </div>
+
+      <div class="container">
+        <div class="contacts-box">
+          <div class="ct-atributes">
+            <div class="ct-atribute">
+              <div class="ct-atr-neme">Телефон</div>
+
+              <span class="ct-atr-value">
+                <div class="ct-line"></div>
+                +38(097)009-89-83
+              </span>
+            </div>
+
+            <div class="ct-atribute">
+              <div class="ct-atr-neme">Адреса офісу</div>
+              <div class="ct-line"></div>
+              <div class="ct-atr-value">м. Київ, вул. Малевича, буд. 4</div>
+            </div>
+
+            <div class="ct-atribute">
+              <div class="ct-atr-neme">Ел. пошта</div>
+              <div class="ct-line"></div>
+              <div class="ct-atr-value">hello@gmail.com</div>
+            </div>
+          </div>
+
+          <div class="google-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2541.7127464307805!2d30.5112028!3d50.4278234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf1e4f6914e5%3A0xbcdcd80ffeaf9ae3!2z0LLRg9C70LjRhtGPINCa0LDQt9C40LzQuNGA0LAg0JzQsNC70LXQstC40YfQsCwgNCwg0JrQuNGX0LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1665762185445!5m2!1sru!2sua"
+              class="google-frame"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+
+      <a href="#" class="btn-up" style="visibility: hidden">
+        <img src="./src/img/btnUpArrow.svg" alt="up" />
+      </a>
     </main>
 
-    <!-- <script src="./index.js" type="module"></script> -->
+    <footer class="footer footer-content">
+      <div class="container footer-content">
+        @ 2022 Супер відпосинок для кожного
+      </div>
+    </footer>
+
+    <script src="./index.js" type="module"></script>
   </body>
 </html>

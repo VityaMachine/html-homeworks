@@ -82,7 +82,6 @@ body {
   background-color: #f5b326;
 }
 
-
 .main-content {
   display: flex;
   flex-direction: column;
@@ -95,7 +94,7 @@ body {
   flex-direction: column;
   align-items: center;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   padding-top: 120px;
 }
 
@@ -127,19 +126,23 @@ body {
   height: 100%;
 }
 
-
 .expirience {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
   list-style: none;
   width: 100%;
+  padding-top: 130px;
+  padding-bottom: 150px;
 }
 
 .xp-card {
   display: flex;
   align-items: center;
-  background-color: #292B2E;
+  justify-content: space-between;
+  background-color: #292b2e;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
   color: #fff;
   width: 26%;
   height: 120px;
@@ -156,4 +159,125 @@ body {
   height: 64px;
   border-radius: 50%;
   background-color: #fff;
+}
+
+.xp-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.xp-value {
+  font-size: 32px;
+  line-height: 40px;
+  color: #ffb742;
+}
+
+.xp-name {
+  font-size: 16px;
+  line-height: 31px;
+}
+
+.xp-card:hover {
+  background: linear-gradient(
+    94.3deg,
+    #ffb742 0%,
+    rgba(255, 123, 66, 0.76) 99.33%
+  );
+  color: #212529;
+}
+
+.xp-card:hover .xp-value {
+  color: #212529;
+}
+
+.info-section {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.info-section:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+
+.info-section:nth-child(2n-1) div {
+  padding-left: 5%;
+}
+
+.info-section:nth-child(2n) div:nth-child(2n-1) {
+  padding-left: 5%;
+}
+
+.sect-img-container {
+  width: 45%;
+}
+
+.section-image {
+  width: 100%;
+}
+
+.sect-text-container {
+  width: 50%;
+
+  color: #fff;
+}
+
+.section-name {
+  padding: 5px 20px 5px 20px;
+  background-color: rgba(255, 255, 255, 0.08);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffb742;
+  text-transform: uppercase;
+  border-radius: 19px;
+}
+
+.section-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 46px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.section-text {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.icons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  background-color: #383e45;
+  border-radius: 10px;
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+.icon-box:hover {
+  background-color: rgba(255, 183, 66, 0.5);
+  border: 1px solid #000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.technology-icon {
+  width: 50%;
 }

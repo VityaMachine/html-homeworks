@@ -9,3 +9,5 @@ HW-03 - https://vityamachine.github.io/html-homeworks/hw-03/
 HW-04 - https://vityamachine.github.io/html-homeworks/hw-04/
 
 HW-05 - https://vityamachine.github.io/html-homeworks/hw-05/
+
+HW-06 - https://vityamachine.github.io/html-homeworks/hw-06/

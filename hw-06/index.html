@@ -15,10 +15,10 @@
         </div>
         <ul class="menu-list">
           <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-          <li class="menu-item"><a href="#" class="menu-link">About</a></li>
-          <li class="menu-item"><a href="#" class="menu-link">Skills</a></li>
-          <li class="menu-item"><a href="#" class="menu-link">Portfolio</a></li>
-          <li class="menu-item"><a href="#" class="menu-link">Contact</a></li>
+          <li class="menu-item"><a href="#about" class="menu-link">About</a></li>
+          <li class="menu-item"><a href="#skills" class="menu-link">Skills</a></li>
+          <li class="menu-item"><a href="#portfolio" class="menu-link">Portfolio</a></li>
+          <li class="menu-item"><a href="#contact" class="menu-link">Contact</a></li>
         </ul>
         <button type="button" class="hire-btn">Hire Me</button>
       </div>
@@ -27,9 +27,9 @@
     <main class="main">
       <div class="container main-content">
         <div class="greetings-info">
-          <div class="greetings-text">Hi, I am Kartik Bansal &#x1F44B;</div>
+          <div class="greetings-text">Hi, I am <a class="greetings-link" href="#">Kartik Bansal</a> &#x1F44B;</div>
           <div class="greetings-text">
-            Creative designer &amp front-end developer
+            Creative designer &amp; front-end developer
           </div>
           <div class="greetings-text">
             I design and code beautifully simple things, and I love what I do.
@@ -72,7 +72,7 @@
           </li>
         </ul>
 
-        <section class="info-section">
+        <section class="info-section" id="about">
           <div class="sect-img-container">
             <img
               src="./src/img/about_img.png"
@@ -97,7 +97,7 @@
           </div>
         </section>
 
-        <section class="info-section">
+        <section class="info-section" id="skills">
           <div class="sect-img-container">
             <ul class="icons-container">
               <li class="icon-box">
@@ -198,7 +198,7 @@
           </div>
         </section>
 
-        <section class="works-section">
+        <section class="works-section" id="portfolio">
           <span class="section-name">my works</span>
           <h2 class="section-title">Featured Works</h2>
 
@@ -262,7 +262,6 @@
           <h2 class="section-title">What customer says</h2>
 
           <ul class="comment-list">
-
             <li class="comment-item">
               <div class="stars-box">
                 <svg class="star star-active" viewBox="0 0 32 32">
@@ -400,11 +399,49 @@
                 </div>
               </div>
             </li>
-            
           </ul>
         </section>
       </div>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="container footer-content">
+        <div class="foot-block" id="contact">
+          <div class="my-info-name">Kartik Bansal.</div>
+          <div class="my-info-profession">
+            Creative designer &amp; front-end developer
+          </div>
+        </div>
+        <div class="foot-block">
+          <h4 class="foot-block-title">Useful Links</h4>
+          <ul class="foot-links-list">
+            <li class="foot-item"><a href="#" class="foot-item-text">Home</a></li>
+            <li class="foot-item"><a href="#about" class="foot-item-text">About</a></li>
+            <li class="foot-item"><a href="#skills" class="foot-item-text">Skills</a></li>
+            <li class="foot-item"><a href="#portfolio" class="foot-item-text">Portfolio</a></li>
+            <li class="foot-item"><a href="#contact" class="foot-item-text">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="foot-block">
+          <h4 class="foot-block-title">Social Media</h4>
+          <ul class="foot-links-list">
+            <li class="foot-item"><a target="_blank" href="https://www.instagram.com/" class="foot-item-text">Instagram</a></li>
+            <li class="foot-item"><a target="_blank" href="https://www.linkedin.com/" class="foot-item-text">linkedin</a></li>
+            <li class="foot-item"><a target="_blank" href="https://dribbble.com/" class="foot-item-text">Dribbble</a></li>
+            <li class="foot-item"><a target="_blank" href="https://www.behance.net/" class="foot-item-text">Behance</a></li>
+            <li class="foot-item"><a target="_blank" href="https://github.com/" class="foot-item-text">Github</a></li>
+          </ul>
+        </div>
+
+        <div class="foot-block">
+          <h4 class="foot-block-title">Newsletter</h4>
+          <p class="foot-item-text">
+            Enter your email and get notified about news, of.
+          </p>
+        </div>
+        
+
+      </div>
+    </footer>
   </body>
 </html>

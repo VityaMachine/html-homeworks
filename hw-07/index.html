@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>HW-07</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-container">
+        <div class="logo-container">
+          <a href="#"
+            ><img class="logo-img" src="./src/img/logo.png" alt="logo"
+          /></a>
+        </div>
+
+        <div class="form-container">
+          <h2 class="form-title">Let’s get you started</h2>
+
+          <form class="form" autocomplete="on" id="form">
+            <label class="form-item">
+              <span class="input-name">Full name</span>
+              <input
+                class="input-field"
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Ade Tiger"
+              />
+            </label>
+
+            <label class="form-item">
+              <span class="input-name">Email address</span>
+              <input
+                class="input-field"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="yourname@email.com"
+              />
+            </label>
+
+            <label class="form-item">
+              <span class="input-name">Phone number</span>
+              <input
+                class="input-field"
+                type="tel"
+                name="tel"
+                id="tel"
+                placeholder="+234 800 2738 9700"
+              />
+            </label>
+
+            <label class="form-item">
+              <span class="input-name">Create password</span>
+              <input
+                class="input-field"
+                type="password"
+                name="password"
+                id="password"
+                placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;"
+              />
+
+              <div class="pass-descr">
+                Password must contain a minimum of 8 characters
+              </div>
+              <div class="pass-descr">
+                Password must contain at least one symbol e.g. @, !
+              </div>
+            </label>
+
+            <label class="form-item">
+              <span class="input-name"
+                >Location <span class="optional">(Optional)</span></span
+              >
+              <select
+                name="location"
+                id="location"
+                size="1"
+                class="input-field"
+              >
+                <option value="" disabled selected hidden>
+                  Select Location
+                </option>
+                <option value="Cherkasy">Cherkasy region</option>
+                <option value="Chernihiv">Chernihiv region</option>
+                <option value="Chernivtsi">Chernivtsi region</option>
+                <option value="Dnipro">Dnipro region</option>
+                <option value="Donetsk">Donetsk region</option>
+                <option value="Ivano-Frankivsk">Ivano-Frankivsk region</option>
+                <option value="Kharkiv">Kharkiv region</option>
+                <option value="Kherson">Kherson region</option>
+                <option value="Khmelnytskyi">Khmelnytskyi region</option>
+                <option value="Kyiv">Kyiv region</option>
+                <option value="Krym">AR Krym</option>
+                <option value="Kropyvnytskyi">Kropyvnytskyi region</option>
+                <option value="Luhansk">Luhansk region</option>
+                <option value="Lviv">Lviv region</option>
+                <option value="Mykolaiv">Mykolaiv region</option>
+                <option value="Odesa">Odesa region</option>
+                <option value="Poltava">Poltava region</option>
+                <option value="Rivne">Rivne region</option>
+                <option value="Sumy">Sumy region</option>
+                <option value="Ternopil">Ternopil region</option>
+                <option value="Vinnytsia">Vinnytsia region</option>
+                <option value="Volyn">Volyn region</option>
+                <option value="Zaporizhzhia">Zaporizhzhia region</option>
+                <option value="Zhytomyr">Zhytomyr region</option>
+              </select>
+            </label>
+
+            <button type="submit" class="button">Sign up</button>
+          </form>
+
+          <div class="bottom-text">
+            Already a user? <a href="#">Login</a>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="additional-container">
+        <div class="menu-container">
+          <ul class="menu-list">
+            <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+            <li class="menu-item"><a href="#" class="menu-link">Contact</a></li>
+          </ul>
+        </div>
+
+        <span class="text-content">
+          “Creativity is intelligence having fun”
+          <div class="author">- Albert Einstein</div>
+        </span>
+        
+       
+      </div>
+
+
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>HW-08</title>
+  </head>
+  <body>
+    <header class="header container">
+      <div class="logo-container">
+        <a href="./">
+          <img src="./src/img/logo.png" alt="logo" class="logo-img" />
+        </a>
+      </div>
+
+      <ul class="menu-list" id="main-menu">
+        <li class="menu-item"><a href="#" class="menu-link">appointment</a></li>
+        <li class="menu-item">
+          <a href="#gallery" class="menu-link">gallery</a>
+        </li>
+        <li class="menu-item">
+          <a href="#services" class="menu-link">services</a>
+        </li>
+        <li class="menu-item"><a href="#team" class="menu-link">team</a></li>
+        <li class="menu-item"><a href="#" class="menu-link">reviews</a></li>
+        <li class="menu-item">
+          <a href="#contact" class="menu-link">contact</a>
+        </li>
+      </ul>
+    </header>
+
+    <main class="main container">
+      <section class="section gallery" id="gallery">
+        <div class="center-img-container">
+          <div class="left-images">
+            <div class="center-img-box">
+              <img
+                src="./src/img/gallery/left_1.jpg"
+                alt=""
+                class="gallery-image"
+              />
+            </div>
+            <div class="center-img-box">
+              <img
+                src="./src/img/gallery/left_2.jpg"
+                alt=""
+                class="gallery-image"
+              />
+            </div>
+          </div>
+          <div class="right-images">
+            <div class="center-img-box">
+              <img
+                src="./src/img/gallery/right_1.jpg"
+                alt=""
+                class="gallery-image"
+              />
+            </div>
+            <div class="center-img-box">
+              <img
+                src="./src/img/gallery/right_2.jpg"
+                alt=""
+                class="gallery-image"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="side-img-container">
+          <div class="side-img-box">
+            <img
+              src="./src/img/gallery/side_left.jpg"
+              alt=""
+              class="gallery-image"
+            />
+          </div>
+          <div class="side-img-box">
+            <img
+              src="./src/img/gallery/side_right.jpg"
+              alt=""
+              class="gallery-image"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section services" id="services">
+        <div class="services-container">
+          <div class="box-first">
+            <div class="service-circle">
+              <img
+                src="./src/img/services/hair_styling.jpg"
+                alt="Hair styling"
+                class="sercive-img"
+              />
+            </div>
+            <span class="service-name">Hair styling</span>
+          </div>
+          <div class="box-second">
+            <div class="service-circle">
+              <img
+                src="./src/img/services/beard_trimming.jpg"
+                alt="Beard trimming"
+                class="sercive-img"
+              />
+            </div>
+            <span class="service-name">Beard trimming</span>
+          </div>
+          <div class="box-third">
+            <div class="service-circle">
+              <img
+                src="./src/img/services/smooth_shave.jpg"
+                alt="Smooth shave"
+                class="sercive-img"
+              />
+            </div>
+            <span class="service-name">Smooth shave</span>
+          </div>
+          <div class="box-fourth">
+            <div class="service-circle">
+              <img
+                src="./src/img/services/hair_straightening.jpg"
+                alt="Hair straightening"
+                class="sercive-img"
+              />
+            </div>
+            <span class="service-name">Hair straightening</span>
+          </div>
+        </div>
+        <div class="services-img-container"></div>
+      </section>
+
+      <section class="section team" id="team">
+        <h2 class="team-title">Meet our highly skilled experts</h2>
+
+        <ul class="team-list">
+          <li class="team-item" id="id-1">
+            <img
+              src="./src/img/team/Meredith.jpg"
+              alt="Meredith"
+              class="master-photo"
+            />
+            <span class="master-name">Meredith</span>
+          </li>
+          <li class="team-item" id="id-2">
+            <img
+              src="./src/img/team/Jason.jpg"
+              alt="Jason"
+              class="master-photo"
+            />
+            <span class="master-name">Jason</span>
+          </li>
+          <li class="team-item" id="id-3">
+            <img
+              src="./src/img/team/Ryan.jpg"
+              alt="Ryan"
+              class="master-photo"
+            />
+            <span class="master-name">Ryan</span>
+          </li>
+          <li class="team-item" id="id-4">
+            <img
+              src="./src/img/team/James.jpg"
+              alt="James"
+              class="master-photo"
+            />
+            <span class="master-name">James</span>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer container">
+      <section class="section contact" id="contact">
+        <div class="top-box">
+          <div class="form-box">
+            <h3 class="form-title">Get in touch with Us and send a Message</h3>
+
+            <form class="form">
+              <div class="form-top">
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Name"
+                  class="form-input form-text"
+                />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Email"
+                  class="form-input form-text"
+                />
+              </div>
+              <div class="form-bottom">
+                <textarea
+                  name="message"
+                  class="form-message form-text"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+            </form>
+          </div>
+
+          <div class="map-box">
+            <iframe
+              class="map-frame"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2616.20713643245!2d-73.99007615722812!3d40.74790255275454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a3cc86f77b%3A0xae2bd0091418ee5!2sStreetEasy!5e0!3m2!1sru!2sua!4v1666961758418!5m2!1sru!2sua"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+        <div class="bottom-box">
+          <div class="contacts">
+            <div class="contact-element">
+              <span class="contact-type">Email : </span>
+              <span class="contact-value">kumarpratiyush1405@gmail.com</span>
+            </div>
+            <div class="contact-element">
+              <span class="contact-type">Phone : </span>
+              <span class="contact-value">+(972)723429834</span>
+            </div>
+            <div class="contact-element">
+              <span class="contact-type">Headquarters : </span>
+              <span class="contact-value">836th Avenue, 3rd Floor,</span>
+            </div>
+            <div class="contact-element">
+              <span class="contact-type"></span>
+              <span class="contact-value">New York,</span>
+            </div>
+            <div class="contact-element">
+              <span class="contact-type"></span>
+              <span class="contact-value">New York</span>
+            </div>
+          </div>
+
+          <div class="worktime">
+            <h5 class="worktime-title">Opening hours</h5>
+
+            <div class="schedule">
+              <div class="timeline">Monday - Friday : 10:00 am - 05:00 pm</div>
+              <div class="timeline">Saturday : 10:00 am - 02:00 pm</div>
+            </div>
+          </div>
+
+          <div class="socials">
+            <h5 class="social-title">Connect with us on</h5>
+            <ul class="social-list">
+              <li class="social-item">
+
+                <a href="https://instagram.com" target="_blank"> 
+                  <span class="soc-logo-box">
+                    <img src="./src/img/socials/instagram.png" alt="instagram" class="soc-img">
+                  </span>
+                  <span class="soc-name">Instagram</span>
+                </a>
+
+              </li>
+              <li class="social-item">
+                <a href="https://facebook.com" target="_blank"> 
+                  <span class="soc-logo-box">
+                    <img src="./src/img/socials/facebook.png" alt="facebook" class="soc-img">
+                  </span>
+                  <span class="soc-name">Facebook</span>
+                </a>
+              </li>
+              <li class="social-item">
+                <a href="https://twitter.com" target="_blank">
+                  <span class="soc-logo-box">
+                    <img src="./src/img/socials/twitter.png" alt="twitter" class="soc-img">
+                  </span>
+                  <span class="soc-name">Twitter</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <script src="./scripts/scroll.js" type="module"></script>
+    <script src="./scripts/masterHover.js" type="module"></script>
+  </body>
+</html>

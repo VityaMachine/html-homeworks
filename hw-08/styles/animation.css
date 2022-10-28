@@ -1,0 +1,272 @@
+@keyframes fromLeftToCenter {
+    0% {
+        animation-timing-function: ease-in;
+        opacity: 0;
+        transform: translateX(-100vh);
+    }
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateX(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateX(-68px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateX(-28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateX(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+}
+
+@keyframes fromRightToCenter {
+    0% {
+        animation-timing-function: ease-in;
+        opacity: 0;
+        transform: translateX(100vh);
+    }
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateX(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateX(68px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateX(28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateX(8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+}
+
+@keyframes fromLeftToSide {
+	0% {
+		opacity: 0;
+		transform: translateX(-50vh);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes fromRightToSide {
+	0% {
+		opacity: 0;
+		transform: translateX(50vh);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes tlCircle {
+    0% {
+        transform: scale(1);
+        transform: translate(0, 0);
+    }
+
+    12.5%{
+        transform: translate(50%, 0) scale(0.55);
+    }
+
+    25% {
+        transform: translate(100%, 0);
+    }
+
+    37.5% {
+        transform: translate(100%, 50%) scale(0.55);
+    }
+
+    50% {
+        transform: translate(100%, 100%);
+    }
+
+    62.5% {
+        transform: translate(50%, 100%) scale(0.55);
+    }
+
+    75% {
+        transform: translate(0, 100%);
+    }
+
+    87.5% {
+        transform: translate(0, 50%) scale(0.55);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes trCircle {
+
+    0% {
+        transform: translate(100%, 0);
+    }
+
+    12.5% {
+        transform: translate(100%, 50%) scale(0.55);
+    }
+
+    25% {
+        transform: translate(100%, 100%);
+    }
+
+    37.5% {
+        transform: translate(50%, 100%) scale(0.55);
+    }
+
+    50% {
+        transform: translate(0, 100%);
+    }
+
+    62.5% {
+        transform: translate(0, 50%) scale(0.55);
+    }
+
+    75% {
+        transform: translate(0, 0);
+    }
+
+    87.5% {
+        transform: translate(50%, 0) scale(0.55);
+    }
+
+    100% {
+        transform: translate(100%, 0);
+    }
+
+}
+
+@keyframes blCircle {
+
+    0% {
+        transform: translate(0, 100%);
+    }
+
+    12.5% {
+        transform: translate(0, 50%) scale(0.55);
+    }
+
+    25% {
+        transform: translate(0, 0);
+    }
+
+    37.5% {
+        transform: translate(50%, 0) scale(0.55);
+    }
+
+    50% {
+        transform: translate(100%, 0);
+    }
+
+    62.5% {
+        transform: translate(100%, 50%) scale(0.55);
+    }
+
+    75% {
+        transform: translate(100%, 100%);
+    }
+
+    87.5% {
+        transform: translate(50%, 100%) scale(0.55);
+    }
+
+    100% {
+        transform: translate(0, 100%);
+    }
+
+}
+
+@keyframes brCircle {
+
+    0% {
+        transform: translate(100%, 100%);
+    }
+
+    12.5% {
+        transform: translate(50%, 100%) scale(0.55);
+    }
+
+    25% {
+        transform: translate(0, 100%);
+    }
+
+    37.5% {
+        transform: translate(0, 50%) scale(0.55);
+    }
+
+    50% {
+        transform: translate(0, 0);
+    }
+
+    62.5% {
+        transform: translate(50%, 0) scale(0.55);
+    }
+
+    75% {
+        transform: translate(100%, 0);
+    }
+
+    87.5% {
+        transform: translate(100%, 50%) scale(0.55);
+    }
+
+    100% {
+        transform: translate(100%, 100%);
+    }
+
+}
+
+

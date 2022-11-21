@@ -257,6 +257,21 @@
   margin-top: 30px;
 }
 
+
+.team-list:hover .team-item {
+  filter: brightness(0.4);
+}
+
+.team-list .team-item:hover {
+  filter: brightness(1.1);
+}
+
+
+.team-list .team-item:hover .master-name {
+  transform: translateY(-100%);
+}
+
+
 .team-item {
   width: 23%;
   padding-top: 38%;
@@ -295,13 +310,13 @@
   transition: 0.2s linear;
 }
 
-.hovered-name {
+/* .hovered-name {
   transform: translateY(-100%);
 }
 
 .non-hovered {
   filter: brightness(0.4);
-}
+} */
 
 /* footer (contact) */
 

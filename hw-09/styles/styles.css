@@ -13,11 +13,12 @@
 .container {
   margin: 0 auto;
   max-width: 1620px;
-  min-width: 620px;
+  min-width: 590px;
 }
 
 .section {
   height: 88vh;
+  min-height: 88vh;
   overflow: hidden;
 }
 
@@ -221,7 +222,6 @@
 
 .services-img-container {
   width: 50%;
-  height: 100%;
   background: url(../src/img/services/services.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -405,7 +405,7 @@
 
 .map-box {
   width: 40%;
-  height: 100%;
+  /* height: 100%; */
 }
 
 .map-frame {
@@ -527,14 +527,19 @@
 }
 
 @media (max-width: 992px) {
+
+  .section {
+    height: auto;
+  }
+
   .menu-link {
     font-size: 18px;
   }
 
   .center-img-container {
     position: relative;
-    width: 50%;
-    height: 50%;
+    width: 80%;
+    left: 10%;
   }
 
   .left-images,
@@ -545,10 +550,11 @@
   .side-img-container {
     position: relative;
     height: 50%;
-    width: 50%;
-    left: 25%;
+    width: 80%;
+    left: 10%;
     padding: 0;
     padding-top: 1%;
+    padding-bottom: 5%;
     align-items: flex-start;
   }
 
@@ -572,16 +578,19 @@
   }
 
   .services-img-container {
-    height: 52%;
+    padding-bottom: 50%;
     width: 100%;
     position: relative;
+    background-position-y: -170px;
   }
 
   .services-container {
-    height: 46%;
+    height: 80vh;
     padding: 2% 0;
     position: relative;
-    left: 25%;
+    width: 80%;
+    left: 10%;
+
   }
 
   .service-name {
@@ -591,20 +600,22 @@
   .team-title {
     height: 20%;
     font-size: 48px;
+    margin-bottom: 55px;
+
   }
 
   .team-list {
     flex-wrap: wrap;
     align-items: flex-start;
-    width: 55%;
-    height: 80%;
+    width: 70%;
+    height: 880px;
     padding: 0;
     margin: 0;
   }
 
   .team-item {
-    width: 200px;
-    padding-top: 332px;
+    width: 250px;
+    padding-top: 405px;
   }
 
   .master-name {
@@ -624,12 +635,13 @@
 
   .map-box {
     width: 100%;
-    height: 47%;
+    height: 370px;
+    margin-top: 25px;
   }
 
   .form-box {
     width: 100%;
-    height: 50%;
+    height: 370px;
   }
 
 
@@ -696,17 +708,18 @@
 
   .left-images,
   .right-images {
+    width: 80%;
     justify-content: space-around;
   }
 
   .center-img-container {
     flex-direction: column;
     align-items: center;
-    height: 66%;
+    height: 1640px;
   }
 
   .center-img-box:nth-child(n) {
-    padding-top: 125px;
+    padding-top: 370px;
     min-width: 180px;
   }
 
@@ -730,18 +743,25 @@
     align-items: center;
     justify-content: space-around;
     padding-top: 0;
-    width: 50%;
-    height: 33%;
+    width: 80%;
+    left: 10%;
+    margin-top: 15px;
   }
 
   .side-img-box {
-    padding-top: 125px;
+    width: 80%;
+    padding-top: 370px;
     min-width: 180px;
+    margin-bottom: 40px;
   }
 
   .side-img-box img {
     object-fit: cover;
     object-position: 0 20%;
+  }
+
+  .services {
+    justify-content: flex-end;
   }
 
   .services-img-container {
@@ -751,8 +771,9 @@
   .services-container {
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 80vh;
   }
+
 
   .team-title {
     height: 10%;

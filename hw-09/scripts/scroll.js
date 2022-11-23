@@ -1,7 +1,10 @@
-const header = document.querySelector(".header");
+const header = document.querySelector(".navbar");
 const headerHeight = header.offsetHeight;
 
-const menuRef = document.getElementById("main-menu");
+
+
+
+const menuRef = document.querySelector(".menu-list");
 menuRef.addEventListener("click", scrollHandler);
 
 const screensRef = {
@@ -13,6 +16,8 @@ const screensRef = {
 
 function scrollHandler(e) {
   e.preventDefault();
+
+  console.log(headerHeight);
 
   if (!e.target.href) {
     return;

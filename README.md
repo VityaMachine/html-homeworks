@@ -17,3 +17,5 @@ HW-07 - https://vityamachine.github.io/html-homeworks/hw-07/
 HW-08 - https://vityamachine.github.io/html-homeworks/hw-08/
 
 HW-09 - https://vityamachine.github.io/html-homeworks/hw-09/
+
+HW-10 - https://vityamachine.github.io/html-homeworks/hw-10/
